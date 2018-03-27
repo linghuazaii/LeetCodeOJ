@@ -6,9 +6,9 @@
 #include <iostream>
 using namespace std;
 
-int rand_range(int start, int end, int seed = 1);
+int rand_range(int start, int end);
 void swap_i(int &l, int &r);
-vector<int> generate_vec(int start, int end, int count);
+vector<int> generate_vec(int start, int end, int count, int seed = 1);
 void dump_vec(vector<int> &data); 
 
 #endif
