@@ -34,3 +34,11 @@ void dump_vec(vector<int> &data) {
     }
     cout<<"\n\n";
 }
+
+int max(int l, int r) {
+    return (l < r) ? r : l;
+}
+
+int min(int l, int r) {
+    return (l < r) ? l : r;
+}
