@@ -4,6 +4,8 @@
 #include <time.h>
 #include <vector>
 #include <queue>
+#include <cstring>
+#include <string>
 #include <iostream>
 using namespace std;
 
